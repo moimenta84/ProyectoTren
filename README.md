@@ -1,42 +1,40 @@
-📁 Estructura del proyecto
-Código
-ProyectoTren/
-├── Main/           # Punto de entrada de la aplicación
-├── model/          # Clases que representan entidades del sistema (Tren, Estación, Ruta...)
-├── view/           # Interfaces de usuario (consola o GUI)
-├── services/       # Lógica de negocio y operaciones sobre los modelos
-├── Utilidades/     # Funciones auxiliares (validaciones, manejo de datos, etc.)
-🧠 Funcionalidades principales
-Crear y gestionar trenes, estaciones y rutas.
 
-Simular trayectos y horarios.
+# 🚆 ProyectoTren – Simulación ferroviaria en Java (MVC)
 
-Validar entradas y mostrar información estructurada.
+**ProyectoTren** es una aplicación desarrollada en Java que simula la gestión de un sistema ferroviario. Está estructurada siguiendo el patrón **Modelo-Vista-Controlador (MVC)**, lo que permite una separación clara entre la lógica de negocio, la interfaz y el control de flujo.
 
-Separación clara de responsabilidades mediante MVC.
+---
 
-🛠️ Tecnologías utilizadas
-Lenguaje: Java
+## 📁 Estructura del proyecto
+ProyectoTren/ ├── Main/ # Punto de entrada de la aplicación ├── 
+model/ # Entidades del sistema (Tren, Estación, Ruta...)
+├── view/ # Interfaces de usuario (consola o GUI)
+├── services/ # Lógica de negocio y operaciones
+├── Utilidades/ # Funciones auxiliares (validaciones, helpers...)
 
-Paradigma: Programación orientada a objetos
+---
 
-Arquitectura: MVC
+## 🧠 Funcionalidades principales
 
-IDE recomendado: IntelliJ IDEA / Eclipse
+- Gestión de trenes, estaciones y rutas.
+- Simulación de trayectos y horarios.
+- Validación de entradas y visualización estructurada.
+- Separación clara de responsabilidades mediante MVC.
 
-Versión mínima de Java: 11
+---
 
-🚀 Cómo ejecutar el proyecto
-Clona el repositorio:
+## 🛠️ Tecnologías utilizadas
 
-bash
-git clone https://github.com/moimienta84/ProyectoTren.git
-Abre el proyecto en tu IDE favorito.
+- **Lenguaje:** Java  
+- **Paradigma:** Programación orientada a objetos  
+- **Arquitectura:** MVC  
+- **IDE recomendado:** IntelliJ IDEA / Eclipse  
+- **Versión mínima de Java:** 11
 
-Ejecuta la clase principal ubicada en Main/Main.java.
+---
 
-📌 Estado del proyecto
-✅ Versión inicial funcional 🔄 En desarrollo: mejoras en interfaz y persistencia de datos 📦 Próximas mejoras: integración con base de datos, exportación de rutas, interfaz gráfica
+## 🚀 Cómo ejecutar el proyecto
 
-🤝 Autor
-Iker Martínez Velasco 📧 moimenta267@gmail.com 🔗 GitHub 🔗 LinkedIn (añade tu enlace si lo tienes)
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/moimienta84/ProyectoTren.git
